@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<title>Basketball Score</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Silkscreen&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="heading">
+			<div class="hd-text">Basketball Score</div> <div class="material-symbols-outlined">
+sports_basketball
+</div>
+</div>
+		<div class="score-card">
+			<div class="f-row">
+				<div class="home">HOME</div>
+				<div class="guest">GUEST</div>
+			</div>
+			<div class="s-row">
+				<div class="left">
+					<div class="bg-1"></div>
+					<div id="text-1">0</div>
+				</div>
+				<div class="right">
+					<div class="bg-2"></div>
+					<div id="text-2">0</div>
+				</div>
+			</div>
+			<div class="t-row">
+				<div class="left">
+					<button id="sq-1" onclick="inc1()">
+						+ 1
+					</button>
+					<button id="sq-2" onclick="inc2()">
+						+ 2
+					</button>
+					<button id="sq-3" onclick="inc3()">
+						+ 3
+					</button>
+				</div>
+				<div class="right">
+					<button id="sq-4" onclick="inc_1()">
+						+ 1
+					</button>
+					<button id="sq-5" onclick="inc_2()">
+						+ 2
+					</button>
+					<button id="sq-6" onclick="inc_3()">
+						+ 3
+					</button>					
+				</div>
+			</div>
+			<div class="f-row">
+				<button id="n-game" onclick="n_game()">NEW GAME</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
